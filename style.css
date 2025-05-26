@@ -1,0 +1,526 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1F25;
+    padding: 15px;
+    align-items: center;
+}
+
+.navbar1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar1 img{
+    width: 70%;
+    height: 100%;
+}
+
+.navbar1 p{
+    color: gray;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.navbar2{
+    display: flex;
+    gap: 30px;
+    color: gray;
+}
+
+.navbar3{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.navbar3 button{
+    gap: 15px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    transition: all ease 0.3s;
+    
+}
+
+.navbar3 button:hover{
+    background-color: blue;
+    transform: scale(105%);
+    
+}
+
+.first__container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: black;
+   
+
+}
+
+.first__containerB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.first__container__p{
+    color: gray ;
+    max-width: 640px;
+}
+
+.first__container__button{
+    display: flex;
+    gap: 40px;
+}
+
+.first__container__button button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+    background-color: transparent;
+}
+
+.first__container__button button:hover{
+    background-color: blue;
+    transform: scale(105%);
+}
+
+
+
+.first__containerIMG img{
+    width: 100%;
+}
+
+.first__container1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.first__container1 h1{
+    color: white;
+    max-width: 1000px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.first__container2{
+    display: flex;
+    gap: 10px;
+}
+
+.first__container2 p{
+    color: blue;
+}
+
+.first__container_second{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    font-size: 15px;
+    flex-direction: row;
+}
+
+.first__container_second1{
+    display: flex;
+    flex-direction: column;
+}
+
+.first__container_second2{
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.first__container_second2_{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.first__container_second2_ p{
+    color: green;
+}
+
+.first__container_second2__3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.first__container_second2 img{
+    width: 20%;
+    height: 30%;
+}
+
+.first__container_second2__p{
+    color: white;
+}
+
+.second__container{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 50px;
+}
+
+.second__container__block{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    gap: 400px;
+    border-bottom: 1px solid gray;
+}
+
+.second__container button{
+    padding: 10px;
+    background-color: blue;
+    transition: all ease 0.3s;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 230px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.second__container button:hover{
+    transform: scale(105%);
+
+}
+
+.second__container__block1{
+    display: flex;
+    gap: 25px;
+    color: gray;
+}
+
+.second__container__block2{
+    display: flex;
+    gap: 25px;
+   
+}
+
+.second__container__blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.second__container__blocks1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.second__container__blocks1 img{
+    width: 20px;
+    height: 30px;
+}
+
+.second__container__blocks2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.second__container__blocks2 img{
+    width: 20px;
+    height: 30px;
+}
+
+.third__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third__container h1{
+    color: white;
+}
+
+.one{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    background-color: #ADB3BF;
+    border-radius: 70px;
+}
+
+.third__container1 p{
+    color: white;
+    max-width: 850px;
+}
+
+.third__container__block{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 30px;
+    width: 100%;
+}
+
+.third__container__blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.fourth__container__blocks__div p{
+    max-width: 300px;
+}
+
+.fourth__container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.fourth__container__div h1,p{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth__container__blocks img{
+    width: 10%;
+    height: 10%;
+}
+
+.fourth__container__blocks button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.fourth__container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.imgFR{
+    width: 100%;
+}
+
+.fourth__container2{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+.fourth__container3{
+    display: flex;
+    align-items: center;
+}
+
+.fourth__container__blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid rgb(255, 0, 0);
+}
+
+.fourth__container__blocks__div{
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.fourth__container h1{
+    color: white;
+}
+
+.fourth__container p{
+    color: gray;
+    
+}
+
+.fifa__container{
+    padding: 70px;
+    background-color: black;
+    display: flex;
+    text-align: left;
+}
+
+.fifa__container1{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+.fifa__container2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fifa__container2 h1{
+    color: white;
+    max-width: 450px;
+}
+
+.fifa__container2 p{
+    color: grey;
+    max-width: 400px;
+}
+
+.fifa__container__block{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.fifa__container__blocks{
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid gray;
+}
+
+.fifa__container__blocks img{
+    width: 30%;
+}
+
+.fifa__container__blocks1{
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    width: 70px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.fifa__container__blocks1 img{
+    width: 50px;
+}
+
+.fifa__container__blocks1{
+    padding: 5px;
+}
+
+.fifa__container3 img{
+    width: 120%;
+}
+
+.six__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    background-color: #1E1F25;
+    gap: 100px;
+}
+
+.six__container1{
+    display: flex;
+    gap: 600px;
+    align-items: center;
+}
+
+.six__container3{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.six__container3 p{
+    color: white;
+}
+
+.six__container4{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.six h3{
+    color: #FDFDFD;
+}
+
+.six p{
+    color: #ADB3BF;
+}
+
+.six__container5{
+    display: flex;
+    align-items: center;
+    gap: 450px;
+}
+
+.six__container6{
+    display: flex;
+    gap: 10px;
+}
+
+.six__container7{
+    display: flex;
+    gap: 20px;
+}
+
+.select1{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    border: 20px;
+}
+
+.select2{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    border: 20px;
+}
+
+.select2 select:active,.select1 select:active{
+    background-color: black;
+}
